@@ -77,6 +77,6 @@ const getSolarData = async (lat, long) => {
             image: image
         }
     } catch (err) {
-        console.log(err);
+        return err;
     }
 }
