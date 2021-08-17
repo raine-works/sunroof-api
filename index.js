@@ -56,7 +56,6 @@ const getSolarData = async (lat, long) => {
 
         let size = await map.boundingBox();   
         let image = await map.screenshot({
-            path: './roof_image/roof.png', 
             clip: {
                 x: (size.width / 2) + 80,
                 y: (size.height / 2) - 100,
