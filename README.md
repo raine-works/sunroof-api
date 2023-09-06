@@ -1,5 +1,5 @@
 # sunroof-api
- 
-npm install 
+
+npm install
 
 npm run serve

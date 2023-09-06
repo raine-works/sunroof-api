@@ -1,16 +1,17 @@
 {
-  "name": "sunroof-example",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "serve": "nodemon index.js"
-  },
-  "author": "Raine Petersen",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.12",
-    "puppeteer": "^9.1.1"
-  }
+	"name": "sunroof-example",
+	"version": "1.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"serve": "nodemon index.js",
+		"format": "npx prettier --write ."
+	},
+	"author": "raine-works",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"nodemon": "^2.0.12",
+		"puppeteer": "^21.1.1"
+	}
 }
